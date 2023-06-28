@@ -25,7 +25,7 @@ To run the BRFilmes, follow these steps:
   cd <repository-directory>
   ```
 
-3. Build and start the application using Docker Compose:
+2. Build and start the application using Docker Compose:
 
    ```bash
    docker-compose up -d
@@ -33,7 +33,7 @@ To run the BRFilmes, follow these steps:
 
    This command will build and start the containers defined in the `docker-compose.yml` file.
 
-4. Access the application:
+3. Access the application:
 
    - Frontend: http://localhost
    - Backend: http://localhost:3000
