@@ -4,7 +4,6 @@ services:
   movie-api:
     image: movie-api:1.0
     build: ./movie-api
-    container_name: movie-api
     environment:
       MONGODB_USER: ${MONGODB_USER}
       MONGODB_PASSWORD: ${MONGODB_PASSWORD}
@@ -16,7 +15,6 @@ services:
   movie-page:
     image: movie-page:1.0
     build: ./movie-page
-    container_name: movie-page
     ports:
       - 80:80
     links:
