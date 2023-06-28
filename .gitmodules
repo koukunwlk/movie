@@ -1,0 +1,6 @@
+[submodule "movie-page"]
+	path = movie-page
+	url = git@github.com:koukunwlk/movie-page.git
+[submodule "movie-api"]
+	path = movie-api
+	url = git@github.com:koukunwlk/movie-api.git
